@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
+import './css/style.css';
 
 //
 const quoteText = document.querySelector('.quote') as HTMLElement;
