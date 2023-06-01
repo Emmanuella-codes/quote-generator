@@ -17,17 +17,18 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372f0;
+  background: #80c1ca;
 }
 .wrapper {
-  width: 80%;
-  background: #fff;
+  width: 83%;
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   padding: 30px 30px 25px;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+  color: rgb(16, 18, 58);
 }
-header,
-.content :where(i, p, span) {
+header {
   color: #202842;
 }
 .wrapper header {
@@ -87,12 +88,12 @@ header,
   width: 47px;
   display: flex;
   cursor: pointer;
-  color: #5372f0;
+  color: rgb(16, 18, 58);
   list-style: none;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  border: 2px solid #5372f0;
+  border: 2px solid rgb(16, 18, 58);
   transition: all 0.3s ease;
 }
 .features ul li:first-child {
@@ -100,7 +101,7 @@ header,
 }
 ul li:is(:hover, .active) {
   color: #fff;
-  background: #5372f0;
+  background: rgb(16, 18, 58);
 }
 ul .speech.active {
   pointer-events: none;
@@ -113,7 +114,7 @@ ul .speech.active {
   cursor: pointer;
   padding: 13px 22px;
   border-radius: 30px;
-  background: #5372f0;
+  background: rgb(16, 18, 58);
 }
 .buttons button.loading {
   opacity: 0.7;
@@ -127,4 +128,3 @@ ul .speech.active {
     margin: auto;
   }
 }
-
