@@ -38,21 +38,6 @@ speechBtn.addEventListener('click', () => {
 });
 
 copyBtn.addEventListener('click', () => {
-  /* navigator.clipboard
-    .writeText(quoteText.innerText)
-    .then(() => {
-      // Clipboard copy successful
-      console.log('Quote copied to clipboard:', quoteText.innerText);
-      copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied';
-      setTimeout(() => {
-        copyBtn.innerHTML = '<i class="far fa-copy"></i> Copy';
-      }, 2000);
-    })
-    .catch((error) => {
-      // Clipboard copy failed
-      console.error('Failed to copy quote to clipboard:', error);
-    }); */
-
   const quoteContent = quoteText.innerText;
 
   // Create a temporary textarea element
